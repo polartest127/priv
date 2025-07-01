@@ -1,0 +1,1 @@
+Couldn't display HKEY_LOCAL_REGISTRY, Error-90A.

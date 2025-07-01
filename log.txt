@@ -1,0 +1,2 @@
+[2025-06-28 18:59:23] {'type': 'system_info', 'hostname': 'ngolongolokante', 'ip': '192.168.4.25', 'os': 'Windows-11-10.0.22631-SP0'}
+[2025-06-28 19:05:16] {'type': 'system_info', 'hostname': 'ngolongolokante', 'ip': '192.168.4.25', 'os': 'Windows-11-10.0.22631-SP0'}

